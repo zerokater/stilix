@@ -27,7 +27,6 @@
     :global(*){
        padding: 0;
        margin: 0;
-       margin: 0 auto;
        box-sizing: border-box;
        font-family: 'Poppins', sans-serif;
     
@@ -41,7 +40,7 @@
 
     header{
         padding: 5rem 0rem 2rem 0rem;
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
