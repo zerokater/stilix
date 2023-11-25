@@ -10,7 +10,9 @@
 
 <header>
     <div class="logo">
-        <img src="images/stilix-logo.svg" alt="">
+        <a href="/">
+            <img src="images/stilix-logo.svg" alt="stilix logo">
+        </a>
     </div>
     <nav>
         <a href="/service">service</a>
@@ -29,7 +31,7 @@
        margin: 0;
        box-sizing: border-box;
        font-family: 'Poppins', sans-serif;
-    
+       background-color: #efefef;
     }
 
 
@@ -55,7 +57,7 @@
     }
 
     a{
-        font-size: 24px;
+        font-size: 22px;
         color: #2b2d42;
         text-decoration: none;
         transition: 0.2s ease-out;
@@ -63,5 +65,9 @@
 
     a:hover{
         color: #ef233c;
+    }
+
+    img{
+        width: 92px
     }
 </style>
