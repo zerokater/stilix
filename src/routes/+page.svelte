@@ -8,7 +8,7 @@
 <main>
     <section>
 
-        <h1>Von der Gestaltung neuer<br>Marken bis hin zum kleinsten<br>Detail im Design.</h1>
+        <h1>Von der Gestaltung neuer<br>Marken bis hin zum kleinsten<br>Detail im Design</h1>
         <PrimaryButton link="/kontakt">Kontaktiere uns</PrimaryButton>
         <SecondaryButton link="/service">Service</SecondaryButton>
     </section>
