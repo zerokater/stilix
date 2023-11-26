@@ -31,7 +31,6 @@
        margin: 0;
        box-sizing: border-box;
        font-family: 'Poppins', sans-serif;
-       background-color: #efefef;
     }
 
 
@@ -40,8 +39,12 @@
         font-size: 10px ;
     }
 
+    :global(body){
+        background-color: #efefef;
+    }
+
     header{
-        padding: 5rem 0rem 2rem 0rem;
+        padding: 5rem 0rem 0rem 0rem;
         width: 60%;
         margin: 0 auto;
         display: flex;
