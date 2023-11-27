@@ -8,9 +8,9 @@
 <main>
     <section>
 
-        <h1>Deine Vision</h1>
-        <h1>
-            unsere Kreation</h1>
+        <h1>Wir geben </h1>
+        <h1>deiner Marke Stil</h1>
+
 
         <div class="buttons">
             <PrimaryButton link="/kontakt">Kontaktiere uns</PrimaryButton>
@@ -39,7 +39,7 @@
     }
 
     h1{
-        font-size: 64px;
+        font-size: 72px;
         width: 95%;
         color: #2b2d42;
     }
