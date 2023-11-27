@@ -8,9 +8,8 @@
 <main>
     <section>
 
-        <h1>Wir geben </h1>
-        <h1>deiner Marke Stil</h1>
-
+        <h1>Wir geben</h1>
+        <h1>Ihrem Unternehmen Stil</h1>
 
         <div class="buttons">
             <PrimaryButton link="/kontakt">Kontaktiere uns</PrimaryButton>
