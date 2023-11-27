@@ -74,9 +74,9 @@
         width: 92px
     }
 
-    @media only screen and (max-width: 1250px) { 
+    @media only screen and (max-width: 1330px) { 
         header{
-            width: 95%;
+            width: 90%;
         }
      }
 </style>
