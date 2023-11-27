@@ -35,7 +35,7 @@
 
     section{
         margin: 12px 0px 12px 0px;
-        width: 60%;
+        width: 1200px;
     }
 
     h1{
@@ -45,13 +45,9 @@
     }
 
 
-    /* For small devices (phones, 580px and up) */
-    @media only screen and (max-width: 576px) { 
-        h1{
-            font-size: 32px;
-        }
+    @media only screen and (max-width: 1250px) { 
         section{
-            width: 90%;
+            width: 95%;
         }
      }
 

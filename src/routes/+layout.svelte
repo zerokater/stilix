@@ -45,7 +45,7 @@
 
     header{
         padding: 5rem 0rem 0rem 0rem;
-        width: 60%;
+        width: 1200px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -73,4 +73,10 @@
     img{
         width: 92px
     }
+
+    @media only screen and (max-width: 1250px) { 
+        header{
+            width: 95%;
+        }
+     }
 </style>
