@@ -11,7 +11,7 @@
 <header>
     <div class="logo">
         <a href="/">
-            <img src="images/stilix-logo.svg" alt="stilix logo">
+            <img src="images/logo.svg" alt="stilix logo">
         </a>
     </div>
     <nav>
