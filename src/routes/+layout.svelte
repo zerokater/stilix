@@ -24,6 +24,8 @@
 
 <slot></slot>
 
+
+
 <style>
 
     :global(*){
@@ -43,6 +45,19 @@
         background-color: #efefef;
     }
 
+    :global(main){
+        margin-top: 64px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }    
+
+    
+    :global(section){
+        width: 1200px;
+        margin: 12px 0px 12px 0px;
+    }
     header{
         padding: 5rem 0rem 0rem 0rem;
         width: 1200px;
@@ -58,6 +73,9 @@
         align-items: center;
         gap: 2rem;
     }
+
+
+
 
     a{
         font-size: 22px;
@@ -76,6 +94,12 @@
 
     @media only screen and (max-width: 1330px) { 
         header{
+            width: 90%;
+        }
+     }
+
+     @media only screen and (max-width: 1330px) { 
+        :global(section){
             width: 90%;
         }
      }
