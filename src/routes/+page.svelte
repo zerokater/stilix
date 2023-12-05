@@ -48,6 +48,7 @@
     .service a:hover{
         background-color: #ef233c;
     }
+
     img{
         
         width: 100%;
