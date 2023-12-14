@@ -1,67 +1,49 @@
-<script>
-    import PrimaryButton from '/src/components/PrimaryButton.svelte';
-    import SecondaryButton from '/src/components/SecondaryButton.svelte';
-
-
-</script>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
 
 <main>
-    <section>
-
-        <h1>Wir geben<br> Ihrem Unternehmen Stil</h1>
-
-        <div class="buttons">
-            <PrimaryButton link="/kontakt">Kontaktiere uns</PrimaryButton>
-            <SecondaryButton link="/service">Service</SecondaryButton>
-        </div>
-    </section>
+    <div>
+        <img src="images/logo.svg" alt="stilix logo">
+        <h2>Webseite im Aufbau</h2>
+    </div>
 </main>
-
-
-<main class="services">
-    <section class="service">
-        <a href="/service"><img src="images/services/design-service.svg" alt="design service"></a>
-        <a href="/service"><img src="images/services/foto-service.svg" alt="foto service"></a>
-        <a href="/service"><img src="images/services/video-service.svg" alt="video service"></a>
-        <a href="/service"><img src="images/services/aufkleber-service.svg" alt="aufkleber service"></a>
-    </section>
-</main>
-
 
 <style>
-    .service{
-        background-color: #efefef;
+
+    :global(*){
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    :global(html){
+        font-size: 10px ;
+    }
+
+    :global(body){
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        
+        background-color: #efefef;
     }
 
-    .service a{
-        border-radius: 1rem;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 24%;
-        transition: all 0.2s ease-in-out;
-    }
-
-    .service a:hover{
-        background-color: #ef233c;
+    main{
+        gap: 5rem;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     img{
-        
-        width: 100%;
-        transition: all 0.1s ease-in;
+        width: 200px;
     }
 
-    img:hover{
-        filter: invert(100%) sepia(58%) saturate(232%) hue-rotate(181deg) brightness(119%) contrast(87%);
-        scale: 1.025;
-        cursor: pointer;
-    }
-    h1{
-        font-size: 72px;
-        color: #2b2d42;
+    h2{
+        text-align: center;
     }
 </style>
