@@ -49,18 +49,27 @@ article {
 }
 
 .content {
-  width: 900px;
+  width: 100%;
 }
 
-.content a {
+.content p {
+  width: 50%;
+}
+
+.cta {
   font-size: 32px;
   color: #e63946;
+  text-decoration: none;
   transition: all 0.2s ease-in;
+
+  border-bottom: 2pt solid #e63946;
 }
 
-.content a:hover {
+.cta:hover {
   font-size: 32px;
   color: black;
+
+  border-color: black;
 }
 
 h1 {
@@ -75,6 +84,17 @@ p {
   font-weight: 300;
 }
 
-span {
-  text-decoration: underline;
+.links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(132, 132, 132);
+  transition: all 0.2s ease-in-out;
+}
+
+.links a:hover {
+  color: black;
+}
+
+ul {
+  list-style: none;
 }
